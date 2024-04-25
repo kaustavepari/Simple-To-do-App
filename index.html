@@ -12,13 +12,25 @@
 <body>
     <div class="background">
         
-        <div class="card-container" id="card">
-            <h1>To-Do App</h1>
-            <input type="text" placeholder="add your task" id="input">
-            <button class="button" id="button">Add</button>
-            <button class="Clear" id="Clear">Clear</button>
-            <ul class="list-container" id="list-container">
-            </ul>
+        <nav><span class="main-heading-1">XERO</span><span class="main-heading-2">TODO</span></nav>
+        <div class="all d-flex flex-column justify-content-center" id="all">
+            <div class="main d-flex flex-row justify-content-center">
+                <div class="card-container d-flex flex-row justify-content-center">
+                    <div>
+                        <h1 class="text-white">Tasks Done</h1>
+                        <p class="paragraph" id="paragraph">keep it up</p>
+                    </div>
+                    <div class="circle-container"><h1 class="counter" id="counter">0</h1>
+                    </div>
+        
+                </div>
+                
+            </div>
+            <div class="d-flex flex-row">
+                <input type="text" placeholder="Enter your Task" class="input-box" id="input">
+            <div class="circle-button" id="circle-button"><h1 class="plus-sign">+</h1></div>
+            </div>
+
         </div>
             
     </div>
